@@ -4,26 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="ians_web.css" rel=stylesheet>
-    <style>
-        p {
-            font-size: 1.5em;
-            margin-left: 2em;
-            margin-right: 2em;
-        }
-        img{
-            object-fit: none;
-            width: auto;
-            height: auto;
-        }
-        .centered {
-            top: 50%;
-            margin-left: 33%;
-        }
-    </style>
+    <link href="index.css" rel=stylesheet>
+    <link href="boxes/index.css" rel=stylesheet>
+    <title>Ian's Webstite</title>
 </head>
 <body>
+    <!-- <form> -->
+            <!-- X: <input value = '' id = "xCords" type = "text">
+            Y: <input value = '' id = "yCords" type = "text"> -->
+            
+            <!-- <select id="colorList"  form="colorForm">
+                <option value="red" selected="selected">Red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+            </select> -->
+        <!-- </form> -->
+<header>
+    <div class="container" id>
+        <nav>
+            <ul>
+                <li class="brleft"><a href=#>Welcome to The Village</a></li>
+                <li><a href=#>What's it like at camp?</a></li>
+                <li><a href=#>The journey to learn code</a></li>
+                <li><a href=#>What now?</a></li>
+                <li class="brright"><a href=#>About/Contact</a></li>
+            </ul>
+        </nav>
+        <button class = "submit" >Make a Box!</button>
+        <div class="title">
+            <h1>- Welcome to the Village -</h1>
+            <h3>No pitchforks here</h3>
+        </div>
+        <div> <!--Weather API-->
+
+        </div><!--Weather API END-->
+    </div> <!--End of container-->
+</header>
+<main class = "form-container">
+    <article class="weather"></article>
+    <article class="camp"></article>
+    <article class="codejourney"></article>
+    <article class="whatnow"></article>
+    <article class="about"></article>
+    <section class="form-container"> <!--BOX GAME-->
+        <!-- <form>
+            X: <input value = '' id = "xCords" type = "text">
+            Y: <input value = '' id = "yCords" type = "text">
+            <button class = "submit" >Submit</button>
+            <select id="colorList"  form="colorForm">
+                <option value="red" selected="selected">Red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+            </select> -->
+        </form>
+    </section> <!--BOX GAME END-->
+    <section class="box-container"></section> 
+    <section><!--API-->
+      <div class="weatherAPI">
+          
+      </div>
+    </section>
+    <section>
+        <ul class="avatar-contact-list">
+            <!--Mailto: links to the email client-->
+            <li href="mailto:ian_c_miller@icloud.com"></li>
+        </ul>
+    </section>
+</main>
+<footer>
+
+</footer>
+    <script src='index.js'></script>
+    <script src ='boxes/index.js'></script>
+</div>
+</body>
+</html>
+
+
+<!--     
     <div class="wrapper">
     <header>
        <h1>Welcome to the <br/>90's Time Machine</h1> 
@@ -42,7 +100,4 @@
         <button>TV Shows</button>
         <button>Music</button>
         <button>Foods</button>
-    </footer>
-</div>
-</body>
-</html>
+    </footer> -->

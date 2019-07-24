@@ -1,0 +1,55 @@
+/* :root {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+} */
+/* body {
+    width: 97vw;
+    margin: 0 auto;
+} */
+
+.form-container {
+    /* position: absolute; */
+    top: 0px;
+    left: 10px;
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    z-index: 100;
+}
+.form-container input {
+    font-size: inherit;
+    width: 85px;
+}
+
+.box-container {
+    position: relative;
+    height:80vh;
+    width: auto;
+    border: 1px solid #ddd;
+    margin: 60px 0 60px 0;
+    overflow: hidden;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(50,50,50,.8);
+    box-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    background-color: #bad;
+    transition: 2s;
+}
+
+.submit {
+    width: auto;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #eafc40;
+    margin: none;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
